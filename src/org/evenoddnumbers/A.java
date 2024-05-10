@@ -16,7 +16,7 @@ public class A {
 				}
 		}
 			System.out.println("EVEN");
-			for (int j = 0; j < 50.; j++) {
+			for (int j = 0; j < 50; j++) {
 				if (j%2==0) {
 					System.out.println(j);
 					evencount++;
@@ -25,6 +25,7 @@ public class A {
 			int sum = oddcount+evencount;
 			System.out.println("sum of counts : "+sum);
 			System.out.println("oddcount : "+oddcount +"\n"+ "evencount : "+evencount);
+			System.out.println();
 			
 			}
 		}
