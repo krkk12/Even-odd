@@ -25,7 +25,7 @@ public class A {
 			int sum = oddcount+evencount;
 			System.out.println("sum of counts : "+sum);
 			System.out.println("oddcount : "+oddcount +"\n"+ "evencount : "+evencount);
-			
+			System.err.println();
 			}
 		}
 	 
